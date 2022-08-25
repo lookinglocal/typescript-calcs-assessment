@@ -1,0 +1,59 @@
+{
+    "name": "typescript-calcs-assessment",
+    "version": "1.0.0",
+    "description": "Sample code for financial assessment calculations implemented in typescript",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "nyc mocha --require ts-node/register test/**/*.test.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lookinglocal/typescript-calcs-assessment.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lookinglocal/typescript-calcs-assessment/issues"
+    },
+    "homepage": "https://github.com/lookinglocal/typescript-calcs-assessment#readme",
+    "nyc": {
+        "extension": [
+            ".ts"
+        ],
+        "exclude": [
+            "**/*.d.ts",
+            "test/*"
+        ],
+        "reporter": [
+            "html"
+        ],
+        "all": true
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "moment": "^2.29.2"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.2.13",
+        "@types/lodash": "^4.14.162",
+        "@types/mocha": "^8.0.3",
+        "@types/moment": "^2.13.0",
+        "@types/node": "^13.13.5",
+        "@typescript-eslint/eslint-plugin": "^4.4.1",
+        "@typescript-eslint/parser": "^4.4.1",
+        "aws-sdk": "^2.655.0",
+        "chai": "^4.2.0",
+        "eslint": "^7.11.0",
+        "mocha": "^8.1.3",
+        "nyc": "^15.1.0",
+        "terser-webpack-plugin": "^5.0.0",
+        "ts-loader": "^8.0.5",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.3",
+        "webpack": "^5.1.3",
+        "webpack-cli": "^4.0.0"
+    }
+}
