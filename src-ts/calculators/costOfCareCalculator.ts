@@ -12,7 +12,7 @@ export class CostOfCareCalculator {
 
     const maxContribution = Math.max(applicantNetIncome, 0);
 
-    let calculationResults = {
+    const calculationResults = {
       contributions: {
         maxContribution,
       },

@@ -5,5 +5,5 @@ import {
 const incomeFields: string[] = [];
 
 export const calculationConfiguration: CalculationConfiguration = {
-  fullIncomeFields: incomeFields
+  fullIncomeFields: incomeFields,
 }

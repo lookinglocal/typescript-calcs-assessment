@@ -5,7 +5,12 @@
     "noImplicitAny": true,
     "preserveConstEnums": true,
     "outDir": "./dist",
-    "sourceMap": true
+    "sourceMap": true,
+    "plugins": [
+      {
+        "name": "typescript-eslint-language-service"
+      }
+    ]
   },
   "include": ["src-ts/**/*.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
