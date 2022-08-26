@@ -4,6 +4,7 @@ Sample code for financial assessment calculations implemented in typescript
 ## Requirements
 
 - Local installation of NodeJS
+- as alternative you could manage NodeJS with `nvm`
 
 ## Installation
 

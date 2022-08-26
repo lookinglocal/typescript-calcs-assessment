@@ -1,5 +1,5 @@
 import { Fields } from '../../src-ts/interfaces';
-import { calculator } from '../../src-ts/customers/london/calculator';
+import { calculator } from '../../src-ts/customers/birmingham/calculator';
 
 import * as chai from 'chai';
 
